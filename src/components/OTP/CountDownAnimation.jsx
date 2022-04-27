@@ -89,6 +89,7 @@ const CountDownAnimation = forwardRef((props,ref) => {
         return () => {
             clearInterval(timer);
         }
+        
     }, [timeLeft]);
     useImperativeHandle(ref, () => ({
 
