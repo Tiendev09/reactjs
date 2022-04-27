@@ -1,8 +1,8 @@
-const test = () => {
+const Test = () => {
     return (
         <div>
             abc
         </div>
     )
 }
-export default test;
+export default Test;
